@@ -21,3 +21,15 @@ Both containers and virtual machines offer ways to run applications in isolated 
 Containers - are lightweight, thye share the host operating system and they start up quickly, which makes them ideal for modern cloud native applications. 
 
 Virtual Machines - Provide strong isolation and include a full operating system which makes them suitable for applications requiring a full isolation or running different OS types on the same host. 
+
+## Understanding Dockerfile
+
+`FROM` : Specifies the base image to use for the Docker image. The base image serves as the foundation for the application. 
+
+`RUN` : Executes commands in the container. This instruction is used to install packages, update dependencies etc. 
+
+`COPY` : Copies files from the host machine into the container.
+
+`WORKDIR` : Sets the working directory for subsequent instructions. This ensures that the command runs in the correct                    directory within the container.
+
+`CMD` : Specifies the command to run when the container starts.
