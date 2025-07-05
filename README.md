@@ -36,4 +36,4 @@ Virtual Machines - Provide strong isolation and include a full operating system 
 
 ## Docker Comnpose
 
-Docker Compose helps you run multiple docker containers together. 
+Docker Compose helps you run multiple docker containers together. Docker Compose is a critical tool in Devops for several reasons. It simplifies the development and testing process. It ensures consistency across different environments and enhances teamwork by making it easier to share and manage infrastructure setups. With Docker Compose, you can significantly stream on your workflow, reduce errors and foster better collaboration with the team.
