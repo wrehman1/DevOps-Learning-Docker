@@ -33,3 +33,7 @@ Virtual Machines - Provide strong isolation and include a full operating system 
 `WORKDIR` : Sets the working directory for subsequent instructions. This ensures that the command runs in the correct                    directory within the container.
 
 `CMD` : Specifies the command to run when the container starts.
+
+## Docker Comnpose
+
+Docker Compose helps you run multiple docker containers together. 
