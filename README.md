@@ -40,4 +40,4 @@ Docker Compose helps you run multiple docker containers together. Docker Compose
 
 ## Docker Registries
 
-A Docker Registry is a storage and distribution hub for docker images. It is where images live and not running as containers. It is like an online library for docker images, making them accessible whenever and whereever you need them. Public registry, e.g. Docker Hub is open to everyone. Private registry, e.g. AWS ECR (Elastic Container Registry)
+A Docker Registry is a storage and distribution hub for docker images. It is where images live and not running as containers. It is like an online library for docker images, making them accessible whenever and whereever you need them. Public registry, e.g. Docker Hub is open to everyone. Private registry, e.g. AWS ECR (Elastic Container Registry) is the AWS version of the registry where images are stored. 
