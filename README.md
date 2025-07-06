@@ -37,3 +37,7 @@ Virtual Machines - Provide strong isolation and include a full operating system 
 ## Docker Compose
 
 Docker Compose helps you run multiple docker containers together. Docker Compose is a critical tool in Devops for several reasons. It simplifies the development and testing process. It ensures consistency across different environments and enhances teamwork by making it easier to share and manage infrastructure setups. With Docker Compose, you can significantly stream on your workflow, reduce errors and foster better collaboration with the team.
+
+## Docker Registries
+
+A Docker Registry is a storage and distribution hub for docker images. It is where images live and not running as containers. It is like an online library for docker images, making them accessible whenever and whereever you need them. Public registry, e.g. Docker Hub is open to everyone. Private registry, e.g. AWS ECR (Elastic Container Registry)
