@@ -41,3 +41,28 @@ Docker Compose helps you run multiple docker containers together. Docker Compose
 ## Docker Registries
 
 A Docker Registry is a storage and distribution hub for docker images. It is where images live and not running as containers. It is like an online library for docker images, making them accessible whenever and whereever you need them. Public registry, e.g. Docker Hub is open to everyone. Private registry, e.g. AWS ECR (Elastic Container Registry) is the AWS version of the registry where images are stored. 
+
+## Making Images Lighter: MultiStage Builds
+
+Large images can slow down your deployments. It consumes more bandwidth and requires more storage. Multistage builds in Docker allows you to use multiple from statements in your Dockerfile. The idea for this is to use one stage to build your application and another much lighter stage to create the final stage that will be deployed. This approach allowsyou to discard unnecessary files and dependencies resulting in a much smaller optimised image. By reducing the size of the docker image, you make your deployments faster and more efficient. Smaller images are quicker to pull from a registry, faster to deploy and take up less disc space. 
+
+![image](https://github.com/user-attachments/assets/3855a772-0b67-43a7-9328-ec3e2137f7f5)
+
+![image](https://github.com/user-attachments/assets/f20250b4-f8a9-4252-9552-aff4ef039da9)
+
+## Kubernetes 
+
+Kubernetes is an open source platform designed to automate teh depolyment, scaling and operations of application containers. It takes container management to the next level by providing advance features like container orchestration, automatic scaling and self-healing. These features ensure your application runs smoothly, efficiently, no matter the scale. 
+
+Understanding Kubernetes is essential for modern Devops professionals as organisations increasingly adopt microservices architecture and cloud native technologies.
+
+## Docker Swarm vs Kubernetes
+
+Docker Swarm is easier to use and integrates esamlessly with Docker, making it a great option for smaller, less complex deployments. However, Kubernetes offers more power, flexibility and scalability, making it the preferred choice for large scale enterprise level applications. 
+
+![image](https://github.com/user-attachments/assets/56c896bc-453c-44db-841a-45cdac701c63)
+
+## Why Use Orchestration Tools?
+
+![image](https://github.com/user-attachments/assets/a01413ec-b903-4aed-8772-cc9845c9e6fc)
+
